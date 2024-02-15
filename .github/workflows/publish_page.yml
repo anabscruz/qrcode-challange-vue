@@ -11,10 +11,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
       - name: Install scripts
         run: npm install
       - name: Build vite project
         run: npm run build
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
       - name: Fix permissions
         run: |
           chmod -c -R +rX "_site/" | while read line; do
@@ -22,3 +29,8 @@ jobs:
           done
       - name: Upload Pages artifacts
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
