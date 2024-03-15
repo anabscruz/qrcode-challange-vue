@@ -43,7 +43,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 
 ### What I learned
-
 This is my first project with Vue.
 I learned how to create components and use them, populating the slots:
 
