@@ -38,7 +38,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## My process
 
 ### Built with
-
 - Flexbox
 - [Vue](https://vuejs.org/) - JS library
 
