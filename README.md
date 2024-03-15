@@ -13,7 +13,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -26,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 #### Tablet
 ![](./docs/screenshot/qrcode-challenge-tablet-portrait.png)
-![](./docs/screenshot/qrcode-challenge-tablet-portrait.png)
+![](./docs/screenshot/qrcode-challenge-tablet-landscape.png)
 
 #### Mobile
 ![](./docs/screenshot/qrcode-challange-mobile.png)
